@@ -5,6 +5,8 @@
 
 The successor of WD14 tagger and an alternative to DeepDanbooru - now with a metadata saving feature for NSFW-oriented gallery tagging (optimized for digiKam). Currently using wd-vit-tagger-v3 model by SmilingWolf which is newer than WD14 and latest DeepDanbooru. Using CUDA and ONNX library over Gradio WEBUI. Tested on Windows.
 
+This fork is intended to expand and support AMD and potential direct writes to a Digikam DB.
+
 ## Features
 - **Output**: There are 2 output modes: embedding tags directly into images for galleries **OR** *.txt* files for AI training
 - **Supported models**: Latest WaifuDiffusion v3 tagger architecture featuring SmilingWolf/wd-vit-tagger-v3 model
