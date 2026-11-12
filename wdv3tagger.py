@@ -219,6 +219,8 @@ def tag_images(image_folder, recursive=False, general_thresh=0.35, character_thr
         except Exception as e:
             print(f"Error processing {image_path}: {str(e)}")
 
+
+#NEED TO UPDATE THIS TO ADD OPTION TO STORE TO DIGIKAM DB; WILL HAVE TO CONSIDER TYPE OF DB IN FUTURE
     def process_image_file(image_path, image_folder, output_to, remove_separator, final_tags, overwrite_tags):
         relative_path = os.path.relpath(image_path, image_folder)
 
