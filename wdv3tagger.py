@@ -71,6 +71,8 @@ class LabelData:
         self.general = general
         self.character = character
 
+
+#NEED TO UPDATE THIS FUNCTION TO USE DIRECTML ONNX, SHOULD BE A CHANGE TO PROVIDERS
 def load_model_and_tags(model_repo):
     csv_path, model_path = download_model(model_repo)
     df = pd.read_csv(csv_path)
